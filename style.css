@@ -1,0 +1,70 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+#hero {
+  width: 592px;
+  margin: 0 auto 72px; /*Margin é o agrupamento das quatro propriedades margens; apenas a opção auto aplica automático para os quatro lados; para determinados as quatro magens ele irá aplicar para o botom e para o bottom e o segundo valor para as latearis; no caso de digitar 3 valores ele irá interpretar o primeiro pra cima, o segundo para as laterais e o terceiro para baixo;*/
+  /*É o mesmo que escrever:
+      margin-top: 0;
+      margin-right: auto;
+      margin-bottom: 72px
+      margin-left: auto;
+  */
+}
+
+#hero img {
+  margin-bottom: 72px;/*Bottom = inferior*/
+}
+
+h1 {
+
+  font-family: 'Inter', sans-serif;
+  font-size: 49px; /*Tamanho da fonte*/
+  line-height: 56px; /*Trata-se da altura da linha*/
+  font-weight: normal; /*Tradução significa peso da fonte*/
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+
+span, a {
+  color:#FF9900;
+  
+}
+
+p {
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 72px;
+}
+
+#footer {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 33px;
+}
+
+#footer a + a {   /*A instrução diz "pegue um 'a' que anterior a ele tenha um 'a',e aplique uma margem esquerda de 28 px"*/
+  margin-left: 28px;
+}
+
+#line {
+  width: 568;
+  height: 0px;
+  margin: 0 auto 8px;
+  border: 1px solid #ECEFF2;
+}
+
+#balls {
+  position: fixed; /*"position: fixed", ou seja, posicionamento fixo na tela, faz com que o objeto fique fixo na tela e não suma nem com a rolagem*/
+  /*Abaixo serão dadas as posições em que imagem deverá ficar*/
+  bottom: 0px;
+  right: 0px;
+}
